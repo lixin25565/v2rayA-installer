@@ -269,7 +269,7 @@ download_v2raya() {
         exit 1
     fi
     if command -v systemctl >/dev/null 2>&1; then
-        service_file_url="https://github.com/v2rayA/v2rayA-installer/raw/main/systemd/v2raya.service"
+        service_file_url="https://github.moeyy.xyz/https://github.com/v2rayA/v2rayA-installer/raw/main/systemd/v2raya.service"
         echo "${GREEN}Downloading v2rayA service file${RESET}"
         echo "${GREEN}Downloading from $service_file_url${RESET}"
         if ! curl -L -H "Cache-Control: no-cache" -o "$v2raya_temp_file".service -# "$service_file_url"; then
