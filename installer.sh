@@ -278,7 +278,7 @@ download_v2raya() {
         fi
     fi
     if command -v rc-service >/dev/null 2>&1; then
-        service_script_url="https://github.com/v2rayA/v2rayA-installer/raw/main/openrc/v2raya"
+        service_script_url="https://github.moeyy.xyz/https://github.com/v2rayA/v2rayA-installer/raw/main/openrc/v2raya"
         echo "${GREEN}Downloading v2rayA service file${RESET}"
         echo "${GREEN}Downloading from $service_script_url${RESET}"
         if ! curl -L -H "Cache-Control: no-cache" -o "$v2raya_temp_file"-openrc -s "$service_script_url"; then
